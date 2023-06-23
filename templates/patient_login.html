@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Management System</title>
+</head>
+<body>
+    <h1>Patient Login</h1>
+    <h2>{{ hospital_name }}</h2>
+    <form action="/patient_login/{{ hospital_name }}" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

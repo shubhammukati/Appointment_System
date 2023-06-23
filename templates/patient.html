@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Management System</title>
+</head>
+<body>
+    <h1>Welcome to the Patient Portal</h1>
+    <h2>{{ hospital_name }}</h2>
+    <form action="/patient_menu/{{ hospital_name }}" method="post">
+        <label for="choice">Select an option:</label>
+        <select id="choice" name="choice">
+            <option value="1">Sign Up</option>
+            <option value="2">Login</option>
+            <option value="3">Back</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

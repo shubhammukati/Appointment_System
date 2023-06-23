@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Management System</title>
+</head>
+<body>
+    <h1>Welcome, Dr. {{ hospital_name }}</h1>
+    <h2>Main Menu</h2>
+    <form action="/doctor_menu/{{ hospital_name }}" method="post">
+        <label for="choice">Select an option:</label>
+        <select id="choice" name="choice">
+            <option value="1">Sign Up</option>
+            <option value="2">Login</option>
+            <option value="3">Back</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <h2>Available Doctors:</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Specialization</th>
+        </tr>
+        {% for doctor in doctors %}
+            <tr>
+                <td>{{ doctor.name }}</td>
+                <td>{{ doctor.specialization }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

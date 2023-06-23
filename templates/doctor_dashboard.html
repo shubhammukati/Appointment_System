@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Management System</title>
+</head>
+<body>
+    <h1>Welcome, Dr. {{ doctor.name }}</h1>
+    <h2>Patient Details:</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Date of Birth</th>
+            <th>Doctor</th>
+            <th>Appointment Time</th>
+        </tr>
+        {% for patient in patients %}
+            <tr>
+                <td>{{ patient.name }}</td>
+                <td>{{ patient.age }}</td>
+                <td>{{ patient.dob }}</td>
+                <td>{{ patient.doctor_name }}</td>
+                <td>{{ patient.appointment_time }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

@@ -1,0 +1,8 @@
+name: shubham|specialization: sergen|Email: shubham@gmail.com|password: 1234|Hospital: Apollo Hospital
+name: rohan|specialization: sergen|Email: rohan@gmail.com|password: 1234|Hospital: Apollo Hospital
+name: amit|specialization: dentist|Email: amit@gmail.com|password: 1234|Hospital: Manipal Hospital
+Name: keshav|Specialization: sergen|Email: keshav@gmail.com|Password: 1234|Hospital: LifeCare Hospital
+Name: abhinav|Specialization: dentist|Email: abhinav@gmail.com|Password: 1234|Hospital: LifeCare Hospital
+Name: vinay|Specialization: all|Email: vinay@gmail.com|Password: 1234|Hospital: Apollo Hospital
+Name: priyanka|Specialization: all|Email: priyanka@gmail.com|Password: 1234|Hospital: LifeCare Hospital
+Name: payal|Specialization: all|Email: payal@gmail.com|Password: 1234|Hospital: Manipal Hospital
